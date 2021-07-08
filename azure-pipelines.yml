@@ -22,6 +22,6 @@ steps:
   displayName: "Run tests on electron"
   continueOnError: true
 
-- script: npm cy:run:chrome
-  displayName: "Run tests on chrome"
-  continueOnError: true
+# - script: npm cy:run:chrome
+#   displayName: "Run tests on chrome"
+#   continueOnError: true

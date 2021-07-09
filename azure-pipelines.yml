@@ -18,10 +18,10 @@ steps:
 - script: npm ci
   displayName: 'npm install'
 
-- script: npm cy:run:electron
+- script: npm run cy:run:electron
   displayName: "Run tests on electron"
   continueOnError: true
 
-- script: npm cy:run:chrome
+- script: npm run cy:run:chrome
   displayName: "Run tests on chrome"
   continueOnError: true
